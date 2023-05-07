@@ -13,7 +13,7 @@ import Container1 from "../components/Container";
 
 
 const OurStore = () => {
-        const [rating, setRating] = useState(0);
+        const [setRating] = useState(0);
         const handleRating = (rate) => {
         setRating(rate)
     }

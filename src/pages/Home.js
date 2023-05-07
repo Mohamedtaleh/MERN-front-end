@@ -9,11 +9,6 @@ import catbanner from "../images/catbanner-01.jpg";
 import catbanner2 from "../images/catbanner-03.jpg";
 import catbanner3 from "../images/catbanner-02.jpg";
 import catbanner4 from "../images/catbanner-04.jpg";
-import services from '../images/service.png'
-import services2 from '../images/service-02.png';
-import services3 from '../images/service-03.png'
-import services4 from '../images/service-04.png'
-import services5 from '../images/service-05.png'
 import headphone from '../images/headphone.jpg';
 import tv from '../images/tv.jpg';
 import camera from '../images/camera.jpg'

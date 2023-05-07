@@ -21,7 +21,10 @@ const Contact = () => {
                                 className="border-0 w-100"
                                 allowFullScreen=""
                                 loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade">
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="product"
+                        >
+
 
                             </iframe>
                         </div>

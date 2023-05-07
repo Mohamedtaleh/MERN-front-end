@@ -4,7 +4,7 @@ import { Rating } from "react-simple-star-rating";
 import watch from '../images/watch.jpg'
 
 const SpecialProduct = () => {
-       const [rating, setRating] = useState(0);
+       const [setRating] = useState(0);
        const handleRating = (rate ) => {
        setRating(rate)
        }

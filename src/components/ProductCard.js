@@ -11,7 +11,7 @@ import wish from '../images/wish.svg';
 
 
 const ProductCard = (props) => {
-    const [rating, setRating] = useState(0);
+    const [setRating] = useState(0);
     const handleRating = (rate) => {
     setRating(rate)
     }

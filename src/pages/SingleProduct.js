@@ -5,7 +5,6 @@ import ProductCard from "../components/ProductCard";
 import { Rating } from 'react-simple-star-rating';
 import ReactImageZoom from "react-image-zoom";
 import Color from '../components/Color';
-import { Link } from "react-router-dom";
 import { TbGitCompare } from 'react-icons/tb';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { CopyToClipboard } from 'react-copy-to-clipboard'
@@ -23,11 +22,11 @@ const SingleProduct = () => {
         zoomWidth: 500,
         img: "https://ae01.alicdn.com/kf/HTB12foVbf1TBuNjy0Fjq6yjyXXav/EYKI-Mens-Sport-Watch-2018-Luxury-Brand-Male-Clock-Brown-Leather-Watchband-Man-Dress-Wrist-Watches.jpg_Q90.jpg_.webp"
     };
-    const [rating, setRating] = useState(false);
+    const [setRating] = useState(false);
     const handleRating = (rate) => {
     setRating(rate)
     }
-    const [orderedProduct, setOrderedProduct] = useState(true);
+    const [orderedProduct] = useState(true);
     return (
 
         <>
@@ -71,7 +70,7 @@ const SingleProduct = () => {
                                                 readonly={true}
                                                 /* Available Props */
                                         />
-                                        <p className="mb-0 t-review">(2 reviews)</p>
+                                        <p className="mb-0 t-review ">(2 reviews)</p>
 
                                     </div>
                                     <a href="#review" className="review-btn">Write a Review</a>
@@ -110,11 +109,11 @@ const SingleProduct = () => {
                                     <div className="d-flex align-items-center gap-15 ">
                                         <div className="mt-3">
                                             <TbGitCompare className="fs-4 me-2" />
-                                            <a href="">Add to Compare</a>
+                                            <a href="/">Add to Compare</a>
                                         </div>
                                         <div className="mt-3">
                                             <AiOutlineHeart className="fs-4 me-2"  />
-                                            <a href="">Add to Wishlist</a>
+                                            <a href="/">Add to Wishlist</a>
                                         </div>
 
                                     </div>
@@ -182,7 +181,7 @@ const SingleProduct = () => {
                                 </div>
                                 {
                                     orderedProduct && <div>
-                                        <a  id="aa"className="text-dark text-decoration-underline  " href="">Write a Review</a>
+                                        <a  id="aa"className="text-dark text-decoration-underline  " href="/">Write a Review</a>
 
                                 </div>
 

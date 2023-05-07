@@ -1,7 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
-import { Link } from "react-router-dom";
 import Container1 from "../components/Container";
 import CustomInput from "../components/CustomInput";
 

@@ -35,7 +35,7 @@ const Header = () => {
                 <div className="container-xxl">
                     <div className="row align-items-center">
                         <div className="col-2">
-                            <h2>< Link className="text-white">Mar Culture
+                            <h2>< Link className="text-white" to="/">Mar Culture
                             </Link></h2>
 
                         </div>
